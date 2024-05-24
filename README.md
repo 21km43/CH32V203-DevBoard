@@ -29,7 +29,7 @@ You can see parts list from the BOM below.
 [Parts List](/production/bom.csv)
 
 ## Board Image
-![Board Image](CH32V203C8T6-DevBoard-board.png)
+![Board Image](CH32V203-DevBoard.png)
 
 ## LICENSE
 [MIT LICENSE](/LICENSE)  
