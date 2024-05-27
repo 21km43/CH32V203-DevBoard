@@ -9512,7 +9512,7 @@
 				)
 			)
 		)
-		(property "Value" "51kΩ"
+		(property "Value" "47kΩ"
 			(at 109.22 41.91 90)
 			(effects
 				(font
@@ -9547,7 +9547,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C25792"
 			(at 109.22 41.91 90)
 			(effects
 				(font
@@ -10115,7 +10115,7 @@
 				)
 			)
 		)
-		(property "Value" "12kΩ"
+		(property "Value" "10kΩ"
 			(at 101.6 41.91 90)
 			(effects
 				(font
@@ -10150,7 +10150,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25752"
+		(property "LCSC" "C25744"
 			(at 101.6 41.91 90)
 			(effects
 				(font
@@ -10191,7 +10191,7 @@
 				)
 			)
 		)
-		(property "Value" "12kΩ"
+		(property "Value" "10kΩ"
 			(at 101.6 39.37 90)
 			(effects
 				(font
@@ -10226,7 +10226,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25752"
+		(property "LCSC" "C25744"
 			(at 101.6 39.37 90)
 			(effects
 				(font
@@ -10753,7 +10753,7 @@
 				)
 			)
 		)
-		(property "Value" "51kΩ"
+		(property "Value" "47kΩ"
 			(at 109.22 39.37 90)
 			(effects
 				(font
@@ -10788,7 +10788,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C25792"
 			(at 109.22 39.37 90)
 			(effects
 				(font
