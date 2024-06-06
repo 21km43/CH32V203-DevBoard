@@ -9768,7 +9768,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "4.7kΩ"
 			(at 220.98 62.2299 0)
 			(effects
 				(font
@@ -9804,7 +9804,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C25900"
 			(at 218.44 60.96 90)
 			(effects
 				(font
@@ -11624,7 +11624,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "4.7kΩ"
 			(at 231.14 62.2299 0)
 			(effects
 				(font
@@ -11660,7 +11660,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC" "C25900"
 			(at 228.6 60.96 90)
 			(effects
 				(font
