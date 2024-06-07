@@ -12138,7 +12138,8 @@
 		(descr "SMD Solder 2-to-1-pad Jumper, 0.9mm rounded Pads, 0.3mm gap, open")
 		(tags "2-to1 solder jumper open")
 		(property "Reference" "JP3"
-			(at 0 -2.286 0)
+			(at 0 -2.286 180)
+			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "9a37abe1-c9ea-4081-90f0-ac7cc7a2281e")
 			(effects
