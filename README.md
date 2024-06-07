@@ -25,6 +25,11 @@ Schematic and Board layout of CH32V203 Development Board. This project was creat
 * All component parameters are already set for [JLCPCB](https://jlcpcb.com). (Thanks for [Fabrication Toolkit](https://github.com/bennymeg/Fabrication-Toolkit))
   * Tooling Hole for SMT Assembly has been added.
 
+## Solder jumpers
+
+* JP1 ... If this jumper is opened, 3.3V cannot be output from the USB or 5V pins through the LDO regulator, and power must be supplied to the MCU from 3.3V. Instead, the quiescent current of the LDO regulator can be set to 0, which optimizes power consumption.
+* JP2 ... Shorting this jumper disables the back-flow protection from the 5V pin to the USB input; short it when you want to output 5V from the USB to 5V with no voltage drop or when you want to use the 5V pin to power the USB2 output. Do not supply power from both the 5V pin and USB while shorted.
+
 ## Parts List
 You can see parts list from the BOM below.  
 [Parts List](/production/bom.csv)
