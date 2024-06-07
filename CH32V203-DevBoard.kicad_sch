@@ -6994,7 +6994,7 @@
 		)
 		(uuid "fe3787e4-42e7-4f26-926c-8e607e2e8e48")
 	)
-	(text_box "USB Device"
+	(text_box "USB1 Device"
 		(exclude_from_sim no)
 		(at 16.51 16.51 0)
 		(size 57.15 64.77)
@@ -7051,7 +7051,7 @@
 		)
 		(uuid "4dcfb30c-c80b-4f62-8315-b5a4d4df81c6")
 	)
-	(text_box "USB Host"
+	(text_box "USB2 Host(Device)"
 		(exclude_from_sim no)
 		(at 176.53 16.51 0)
 		(size 104.14 64.77)
