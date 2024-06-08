@@ -11179,6 +11179,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Position Offset" "0, 0.127"
+			(at 256.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "92a1429d-dafe-41b0-96fd-d1d359ccb2af")
 		)
@@ -13400,6 +13409,15 @@
 			)
 		)
 		(property "LCSC" "C2765186"
+			(at 35.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0, 0.127"
 			(at 35.56 49.53 0)
 			(effects
 				(font
