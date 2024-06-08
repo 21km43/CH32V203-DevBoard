@@ -978,7 +978,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2765186"
+		(property "LCSC" "C2988369"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1019,7 +1019,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Position Offset" "0, 0.127"
+		(property "JLCPCB Position Offset" "0, 0.13"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3206,7 +3206,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2765186"
+		(property "LCSC" "C2988369"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3246,7 +3246,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB Position Offset" "0, 0.127"
+		(property "JLCPCB Position Offset" "0, 0.13"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

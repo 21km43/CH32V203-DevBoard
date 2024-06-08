@@ -11170,7 +11170,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2765186"
+		(property "LCSC" "C2988369"
 			(at 256.54 49.53 0)
 			(effects
 				(font
@@ -11179,7 +11179,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" "0, 0.127"
+		(property "JLCPCB Position Offset" "0, 0.13"
 			(at 256.54 49.53 0)
 			(effects
 				(font
@@ -13408,7 +13408,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2765186"
+		(property "LCSC" "C2988369"
 			(at 35.56 49.53 0)
 			(effects
 				(font
@@ -13417,7 +13417,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" "0, 0.127"
+		(property "JLCPCB Position Offset" "0, 0.13"
 			(at 35.56 49.53 0)
 			(effects
 				(font
