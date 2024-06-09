@@ -27,7 +27,7 @@ Schematic and Board layout of CH32V203 Development Board. This project was creat
 
 ## Solder jumpers
 * JP1 ... If this jumper is opened, 3.3V cannot be output from the USB or 5V pins through the LDO regulator, and power must be supplied to the MCU from 3.3V. Instead, the quiescent current of the LDO regulator can be set to 0, which optimizes power consumption.
-* JP2 ... Shorting this jumper disables the back-flow protection from the 5V pin to the USB input; short it when you want to output 5V from the USB to 5V with no voltage drop or when you want to use the 5V pin to power the USB2 output. Do not supply power from both the 5V pin and USB while shorted.
+* JP2 ... Shorting this jumper disables the back-flow protection from the 5V pin to the USB input; short it when you want to output 5V from the USB to 5V with no voltage drop or when you want to use the 5V pin to power the USB2 output. Do not supply power from both the 5V pin and USB while shorted. Note that shorting this pin will increase current consumption by about 0.1~0.2mA due to the pull-down resistor on the CC pin.
 * JP3 ... Shorting all of these jumpers changes the function of USB2 from Host to Device and allows it to receive power from USB2. In this case, it is not recommended to use USB1 and USB2 at the same time (because of the risk of short circuits if the voltages of USB1 and USB2 are different)
 
 ## Parts List
