@@ -4534,301 +4534,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:AO3401A"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3401A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3401A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "AO3401A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -5419,12 +5124,6 @@
 		(uuid "0d151575-4e24-4ba1-90fd-5ab29f3c0a53")
 	)
 	(junction
-		(at 218.44 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f4bc412-bc98-49db-9e84-45b84227c022")
-	)
-	(junction
 		(at 52.07 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5459,12 +5158,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e5d5834-060b-40b9-a2bc-eabff9e2bec5")
-	)
-	(junction
-		(at 210.82 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2093443a-7453-44c5-872f-cb36ac283332")
 	)
 	(junction
 		(at 63.5 41.91)
@@ -5533,10 +5226,22 @@
 		(uuid "6e83c913-37ca-4f63-aac9-47942e3dcb0c")
 	)
 	(junction
+		(at 218.44 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75a76d16-6c5f-4c0e-bd16-8fb7ce874ca7")
+	)
+	(junction
 		(at 35.56 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a3dcb53-1238-499a-b15c-4092ea0ce7f8")
+	)
+	(junction
+		(at 189.23 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b4980f3-9dae-4f7d-aaa6-b78f636b64f3")
 	)
 	(junction
 		(at 123.19 41.91)
@@ -5551,12 +5256,6 @@
 		(uuid "89edcfee-d007-4c6f-9c4b-1e3bc9162984")
 	)
 	(junction
-		(at 201.93 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cec89b1-1510-44c7-ad85-16fc59adff9d")
-	)
-	(junction
 		(at 189.23 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5567,12 +5266,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97681595-846f-4ff0-b26f-fcfaf80ac114")
-	)
-	(junction
-		(at 189.23 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eddaa21-a64d-4cb5-a49e-3f54c293c7c8")
 	)
 	(junction
 		(at 41.91 177.8)
@@ -5611,12 +5304,6 @@
 		(uuid "c7ddebda-f66b-437b-9d05-79a8de1f1c3b")
 	)
 	(junction
-		(at 201.93 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8f69dcd-5a81-460c-8906-040456ac0813")
-	)
-	(junction
 		(at 107.95 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5633,12 +5320,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e87f0c-8c89-4ed9-a764-4bb6dd933974")
-	)
-	(junction
-		(at 201.93 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7724369-986d-4086-9906-c873d947bab2")
 	)
 	(junction
 		(at 123.19 29.21)
@@ -5896,16 +5577,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 41.91) (xy 210.82 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe8da43-36b4-44e1-bcf2-35c41d8fb0b5")
-	)
-	(wire
-		(pts
 			(xy 105.41 110.49) (xy 114.3 110.49)
 		)
 		(stroke
@@ -5956,16 +5627,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 52.07) (xy 218.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d4d0403-ce71-427c-aafa-dc7afd7b18c8")
-	)
-	(wire
-		(pts
 			(xy 241.3 46.99) (xy 241.3 48.26)
 		)
 		(stroke
@@ -5986,16 +5647,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 41.91) (xy 215.9 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da834ac-f944-4c56-94d3-a057a99cd070")
-	)
-	(wire
-		(pts
 			(xy 63.5 41.91) (xy 58.42 41.91)
 		)
 		(stroke
@@ -6003,16 +5654,6 @@
 			(type default)
 		)
 		(uuid "3fe841d3-bd69-4e1b-ae37-901b92349014")
-	)
-	(wire
-		(pts
-			(xy 201.93 72.39) (xy 201.93 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4035c501-c842-4a37-9637-5d93af1a6aee")
 	)
 	(wire
 		(pts
@@ -6166,16 +5807,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 52.07) (xy 218.44 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7d5a76-43f0-4b9e-a72e-1fe98e9b38f9")
-	)
-	(wire
-		(pts
 			(xy 46.99 177.8) (xy 49.53 177.8)
 		)
 		(stroke
@@ -6186,7 +5817,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 52.07) (xy 191.77 52.07)
+			(xy 189.23 44.45) (xy 191.77 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6226,23 +5857,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 201.93 72.39)
+			(xy 199.39 54.61) (xy 228.6 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72d2c8a8-6650-495f-8687-81150b266997")
-	)
-	(wire
-		(pts
-			(xy 199.39 72.39) (xy 201.93 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "732e15e1-52b4-4d7b-b799-a52514017533")
 	)
 	(wire
 		(pts
@@ -6366,13 +5987,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 34.29) (xy 241.3 34.29)
+			(xy 218.44 44.45) (xy 218.44 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89fa85b3-1d36-4d2b-b55d-70848caa0b45")
+		(uuid "8ac94b12-1206-40d3-abb6-841d8541909f")
 	)
 	(wire
 		(pts
@@ -6386,16 +6007,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 218.44 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e3fb9a2-61eb-4e01-9265-8df4fef30e4d")
-	)
-	(wire
-		(pts
 			(xy 105.41 68.58) (xy 105.41 71.12)
 		)
 		(stroke
@@ -6406,23 +6017,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 72.39) (xy 191.77 72.39)
+			(xy 189.23 54.61) (xy 191.77 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96779f72-281b-41a5-bc00-4f5dcd7256a6")
-	)
-	(wire
-		(pts
-			(xy 205.74 41.91) (xy 210.82 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "999f70d2-fdbc-44f1-9683-8e9649207c11")
 	)
 	(wire
 		(pts
@@ -6466,6 +6067,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 44.45) (xy 189.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fe9767-750d-4ce6-8eca-65acec79560b")
+	)
+	(wire
+		(pts
 			(xy 123.19 29.21) (xy 133.35 29.21)
 		)
 		(stroke
@@ -6473,6 +6084,16 @@
 			(type default)
 		)
 		(uuid "a32ae03c-d3a0-434a-a9f8-15c42739bfe7")
+	)
+	(wire
+		(pts
+			(xy 218.44 44.45) (xy 218.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3bc8c03-e7ed-4de3-8603-03761db2cb71")
 	)
 	(wire
 		(pts
@@ -6496,7 +6117,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 52.07) (xy 199.39 52.07)
+			(xy 199.39 44.45) (xy 218.44 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6506,7 +6127,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 34.29) (xy 200.66 34.29)
+			(xy 189.23 34.29) (xy 241.3 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6526,16 +6147,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 54.61) (xy 228.6 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf9ef6b-18e9-43cb-b28f-a256cd02e1c4")
-	)
-	(wire
-		(pts
 			(xy 228.6 41.91) (xy 241.3 41.91)
 		)
 		(stroke
@@ -6543,16 +6154,6 @@
 			(type default)
 		)
 		(uuid "ac59eb54-6168-4860-a9c5-fa7bd26de4e9")
-	)
-	(wire
-		(pts
-			(xy 189.23 72.39) (xy 189.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad914d1d-785f-40d8-bbd9-85d7e18f8edf")
 	)
 	(wire
 		(pts
@@ -6613,16 +6214,6 @@
 			(type default)
 		)
 		(uuid "b883c35f-731e-44fb-ad5b-2bf9cc2ee7d4")
-	)
-	(wire
-		(pts
-			(xy 210.82 62.23) (xy 201.93 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8ac5377-cf20-478c-8b25-6c9aecabed70")
 	)
 	(wire
 		(pts
@@ -6776,7 +6367,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 34.29) (xy 189.23 52.07)
+			(xy 189.23 34.29) (xy 189.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6853,26 +6444,6 @@
 			(type default)
 		)
 		(uuid "eec725f0-2d63-4f63-8b48-da1b83bcc025")
-	)
-	(wire
-		(pts
-			(xy 201.93 54.61) (xy 201.93 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef2d4b18-6baa-4c37-8559-e8d3016b00a2")
-	)
-	(wire
-		(pts
-			(xy 213.36 54.61) (xy 213.36 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef8cd9f5-0661-4d0d-af28-eb8585cb1fd8")
 	)
 	(wire
 		(pts
@@ -9523,90 +9094,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 215.9 36.83 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a9d331c-8e54-4db1-90a4-a081d21a41e7")
-		(property "Reference" "Q2"
-			(at 215.9 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 215.9 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 213.995 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 212.09 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 215.9 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15127"
-			(at 215.9 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7615ca18-6f85-4aa5-ab66-2ad709f9bc3e")
-		)
-		(pin "1"
-			(uuid "a10b2725-38be-4ae7-abe0-3ca1dd9a6caf")
-		)
-		(pin "3"
-			(uuid "1fecba7d-3207-493e-968d-8ef6ecb5ffd4")
-		)
-		(instances
-			(project "CH32V203-DevBoard"
-				(path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 86.36 176.53 0)
 		(unit 1)
@@ -9665,85 +9152,6 @@
 			(project "CH32V203-DevBoard"
 				(path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 201.93 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "202432e3-75ed-4cb4-901f-96af757160b0")
-		(property "Reference" "R9"
-			(at 204.47 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1MΩ"
-			(at 204.47 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 203.708 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C26083"
-			(at 201.93 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1230f514-ca5f-4fa2-99d4-af66532d5315")
-		)
-		(pin "2"
-			(uuid "5a86baf1-ec57-4956-9db8-02572699304c")
-		)
-		(instances
-			(project "CH32V203-DevBoard"
-				(path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11034,89 +10442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 205.74 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "589d1fd5-e6bf-49fb-ba2c-26a2eb199e54")
-		(property "Reference" "Q1"
-			(at 205.74 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 205.74 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 207.645 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 209.55 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 205.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15127"
-			(at 205.74 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f2ee2fec-9bc2-49b6-b554-370046746cfc")
-		)
-		(pin "1"
-			(uuid "a68a3afc-5ef4-4819-9291-adeab282584d")
-		)
-		(pin "3"
-			(uuid "7eb2d34f-5b1d-4b2b-9566-c5395e02484d")
-		)
-		(instances
-			(project "CH32V203-DevBoard"
-				(path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 256.54 49.53 0)
 		(mirror y)
@@ -11530,7 +10855,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 195.58 72.39 270)
+		(at 195.58 54.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11539,7 +10864,7 @@
 		(fields_autoplaced yes)
 		(uuid "63005df1-9f8e-4059-8809-6ba939a533f0")
 		(property "Reference" "R7"
-			(at 195.58 66.04 90)
+			(at 195.58 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11547,7 +10872,7 @@
 			)
 		)
 		(property "Value" "56kΩ"
-			(at 195.58 68.58 90)
+			(at 195.58 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +10880,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 195.58 70.612 90)
+			(at 195.58 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11564,7 +10889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 72.39 0)
+			(at 195.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11573,7 +10898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 72.39 0)
+			(at 195.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11582,7 +10907,7 @@
 			)
 		)
 		(property "LCSC" "C23206"
-			(at 195.58 72.39 90)
+			(at 195.58 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,85 +11465,6 @@
 			(project "CH32V203-DevBoard"
 				(path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 201.93 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d91cc77-73aa-48ff-814a-1dddd4efa4e1")
-		(property "Reference" "R8"
-			(at 204.47 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1MΩ"
-			(at 204.47 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 203.708 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C26083"
-			(at 201.93 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4b61381-b8a4-4d32-973b-9eec7652ab01")
-		)
-		(pin "2"
-			(uuid "a555681e-6426-4bf7-a163-d4cc2092f948")
-		)
-		(instances
-			(project "CH32V203-DevBoard"
-				(path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13136,7 +12382,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 195.58 52.07 270)
+		(at 195.58 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13145,7 +12391,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2e53b58-69ac-47df-9ea9-e618c6b5bfd7")
 		(property "Reference" "R6"
-			(at 195.58 45.72 90)
+			(at 195.58 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13153,7 +12399,7 @@
 			)
 		)
 		(property "Value" "56kΩ"
-			(at 195.58 48.26 90)
+			(at 195.58 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,7 +12407,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 195.58 50.292 90)
+			(at 195.58 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,7 +12416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 52.07 0)
+			(at 195.58 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13179,7 +12425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 52.07 0)
+			(at 195.58 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13188,7 +12434,7 @@
 			)
 		)
 		(property "LCSC" "C23206"
-			(at 195.58 52.07 90)
+			(at 195.58 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
