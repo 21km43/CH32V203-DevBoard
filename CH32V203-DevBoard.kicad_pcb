@@ -5200,7 +5200,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7kΩ"
+		(property "Value" "5.1kΩ"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "a64a05f9-651a-47de-a479-2948e5c93441")
@@ -5250,7 +5250,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25905"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7819,7 +7819,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7kΩ"
+		(property "Value" "5.1kΩ"
 			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "eaf18a34-64a5-49ea-abaa-af2460e7aa10")
@@ -7869,7 +7869,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25905"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
